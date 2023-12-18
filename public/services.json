@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "End-to-End Event Planning",
+      "image": "https://i.ibb.co/PxghtXv/shutterstock-425206855.jpg",
+      "price": "$2,500 - $5,000",
+      "description": "Comprehensive event planning services, covering concept development, logistics, scheduling, and coordination.",
+      "detail_description": "Our End-to-End Event Planning service ensures a seamless experience, from initial idea generation to flawless execution. We handle every aspect to make your event memorable and successful. This includes detailed concept development, precise logistical planning, scheduling coordination, and on-site execution with a focus on every detail. Let us take care of the complexities, so you can enjoy a stress-free event."
+    },
+    {
+      "id": 2,
+      "name": "Venue Selection and Management",
+      "image": "https://i.ibb.co/JKQYNQb/venue.jpg",
+      "price": "$1,000 - $3,000",
+      "description": "Assistance in selecting suitable venues, handling negotiations, bookings, and on-site management for educational and training events.",
+      "detail_description": "Our Venue Selection and Management service guarantees a perfect match between your event and the venue. We take care of negotiations, bookings, and on-site management for a stress-free experience. Our team conducts a thorough analysis of your event requirements, ensuring the chosen venue aligns with your vision. From negotiating contracts to overseeing logistics, we ensure every detail is managed professionally, allowing you to focus on the success of your event."
+    },
+    {
+      "id": 3,
+      "name": "Speaker and Presenter Coordination",
+      "image": "https://i.ibb.co/ZV8mwVG/image-asset.jpg",
+      "price": "$1,500 - $4,000",
+      "description": "Management of speaker and presenter recruitment and coordination, ensuring a diverse and knowledgeable lineup.",
+      "detail_description": "For Speaker and Presenter Coordination, we curate a diverse and knowledgeable lineup for your event. Our meticulous coordination ensures engaging and informative sessions. From identifying industry experts to managing their schedules, we take care of every aspect. We prioritize diversity and expertise, guaranteeing that your audience benefits from insightful and well-coordinated presentations."
+    },
+    {
+      "id": 4,
+      "name": "Promotional Campaigns",
+      "image": "https://i.ibb.co/zZPZyWz/download.jpg",
+      "price": "$800 - $2,500",
+      "description": "Development and execution of marketing and promotional campaigns to increase event visibility and attract participants.",
+      "detail_description": "Our Promotional Campaigns service is designed to boost your event's visibility and attract the right audience. We create and execute effective campaigns for maximum impact. Our team develops tailored marketing strategies, leveraging various channels to reach your target audience. From social media campaigns to email marketing, we ensure your event gains the attention it deserves, resulting in increased attendance and engagement."
+    },
+    {
+      "id": 5,
+      "name": "Registration and Ticketing Services",
+      "image": "https://i.ibb.co/4Nny7fF/download-1.jpg",
+      "price": "$500 - $1,500",
+      "description": "Offering online registration and ticketing solutions to streamline participant sign-up and manage attendance effectively.",
+      "detail_description": "Simplify participant sign-up and attendance management with our Registration and Ticketing Services. We offer user-friendly online solutions for a seamless experience. From creating customized registration forms to managing ticket sales and check-ins, our platform ensures a hassle-free process. Focus on delivering a great event while we take care of the technicalities of participant management."
+    },
+    {
+      "id": 6,
+      "name": "Post-Event Evaluation and Analysis",
+      "image": "https://i.ibb.co/0cShqYW/download-2.jpg",
+      "price": "$1,200 - $3,000",
+      "description": "Conducting post-event evaluations to gather feedback, analyze event success, and provide insights for future improvements.",
+      "detail_description": "Our Post-Event Evaluation and Analysis service helps you gather valuable feedback, analyze event success, and gain insights for continuous improvement in future events. We employ a comprehensive approach, collecting feedback from participants, sponsors, and stakeholders. Our detailed analysis covers event logistics, content delivery, and overall participant satisfaction, providing you with actionable insights for enhancing your future events."
+    }
+  ]
