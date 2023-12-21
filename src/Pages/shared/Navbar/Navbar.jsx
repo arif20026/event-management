@@ -43,7 +43,8 @@ const Navbar = () => {
             <div className="navbar bg-gray-600 text-white ">
 
                 <div className="navbar-start">
-
+                    <img src="https://i.ibb.co/rswm63W/Screenshot-302.png" alt="" className="w-10 h-10 rounded-full mr-2" />
+                 <h1 className="text-2xl">Eventpro</h1>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
