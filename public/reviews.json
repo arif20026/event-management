@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "eventId": 3,
+      "eventName": "International Education Summit",
+      "customerId": 101,
+      "customerName": "Alice Johnson",
+      "rating": 5,
+      "comment": "Kudos to the hosting team for the flawless execution of the International Education Summit. The virtual experience was seamless, and the variety of sessions offered valuable insights. Looking forward to future events!",
+      "timestamp": "2023-06-15",
+      "data_aos": "fade-up",
+      "color": "#b0b8ce"
+    },
+    {
+      "id": 2,
+      "eventId": 2,
+      "eventName": "Tech Career Fair 2023",
+      "customerId": 102,
+      "customerName": "John Smith",
+      "rating": 4,
+      "comment": "The Tech Career Fair 2023 hosted by your team provided an excellent virtual platform. The user-friendly interface made navigation easy, and the networking opportunities were well-organized. Great job!",
+      "timestamp": "2023-07-02",
+      "data_aos": "fade-down",
+      "color": "#b0b8ce"
+    },
+    {
+      "id": 3,
+      "eventId": 4,
+      "eventName": "Certified Project Management Training",
+      "customerId": 103,
+      "customerName": "Emily Turner",
+      "rating": 5,
+      "comment": "I appreciate the hosting of the Certified Project Management Training. The online training format was effective, and the support from your team was commendable. I feel confident in my project management skills!",
+      "timestamp": "2023-08-20",
+      "data_aos": "fade-left",
+      "color": "#b0b8ce"
+    },
+    {
+      "id": 4,
+      "eventId": 3,
+      "eventName": "Global Education Symposium",
+      "customerId": 104,
+      "customerName": "Daniel Rodriguez",
+      "rating": 4,
+      "comment": "Hosting of the Global Education Symposium was top-notch. The virtual environment provided a smooth experience, and the content was relevant and thought-provoking. Well done!",
+      "timestamp": "2023-09-12",
+      "data_aos": "fade-right",
+      "color": "#b0b8ce"
+    }
+  ]
+  

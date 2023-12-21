@@ -1,37 +1,38 @@
-    import { useContext, useState } from "react";
-    import { Link } from "react-router-dom";
-    import { AuthContext } from "../../Provider/AuthProvider";
+import { useContext, useState } from "react";
+import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import Navbar from "../shared/Navbar/Navbar";
 
-    const Register = () => {
+const Register = () => {
 
-        const {createUser} =useContext(AuthContext)
-        const [registerError,setRegisterError] = useState('')
-        const [success,setSuccess] = useState(false)
-        
-
-
-        const handleSubmit = e => {
-            e.preventDefault();
-            console.log(e.currentTarget);
-            const form = new FormData(e.currentTarget)
-            console.log(form)
-            const name= form.get('name')
-            const photoURL =  form.get('photoURL')
-            const email= form.get('email')
-            const password =form.get('password')
-
-            setRegisterError('')
-            setSuccess('')
-
-            if( !/^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])(.{6,})$/.test(password)){
-                setRegisterError('Password should be at least 6 characters and  contain a capital letter and a special character ! ')
-                return
-            }
+    const { createUser } = useContext(AuthContext)
+    const [registerError, setRegisterError] = useState('')
+    const [success, setSuccess] = useState(false)
 
 
 
-            createUser(email,password,name,photoURL)
-            .then (result => {
+    const handleSubmit = e => {
+        e.preventDefault();
+        console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget)
+        console.log(form)
+        const name = form.get('name')
+        const photoURL = form.get('photoURL')
+        const email = form.get('email')
+        const password = form.get('password')
+
+        setRegisterError('')
+        setSuccess('')
+
+        if (!/^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])(.{6,})$/.test(password)) {
+            setRegisterError('Password should be at least 6 characters and  contain a capital letter and a special character ! ')
+            return
+        }
+
+
+
+        createUser(email, password, name, photoURL)
+            .then(result => {
                 console.log(result.user)
                 setSuccess(true)
             })
@@ -41,8 +42,16 @@
             })
 
 
-        }
-        return (
+    }
+    return (
+
+
+        <div>
+
+            <div>
+                <Navbar></Navbar>
+            </div>
+
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
@@ -72,7 +81,7 @@
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" name="password"className="input input-bordered" required />
+                                <input type="password" placeholder="password" name="password" className="input input-bordered" required />
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary" >Register</button>
@@ -89,7 +98,8 @@
                     </div>
                 </div>
             </div>
-        );
-    };
+        </div>
+    );
+};
 
-    export default Register;
+export default Register;

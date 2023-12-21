@@ -1,7 +1,9 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import userDefaultPic from '../../../assets/user.png'
+import { FaGoogle } from "react-icons/fa";
+
 
 const Navbar = () => {
 
@@ -12,11 +14,25 @@ const Navbar = () => {
 
     </>
 
-    const { user, logOut } = useContext(AuthContext)
+    const navigate = useNavigate()
+    const location = useLocation()
+
+    const { user, logOut,signInWithGoogle } = useContext(AuthContext)
     const handleLogOut = () => {
         logOut()
             .then(() => console.log('user logged out successfully'))
             .catch(error => console.log(error))
+    }
+
+    const handleSignInWithGoogle = () => {
+        signInWithGoogle()
+        .then(result => {
+            console.log(result)
+
+            navigate(location?.state ? location.state : "/")
+
+        })
+        .catch(error => console.log(error))
     }
     return (
         <div>
@@ -24,7 +40,7 @@ const Navbar = () => {
 
 
 
-            <div className="navbar bg-red-500   ">
+            <div className="navbar bg-gray-600 text-white ">
 
                 <div className="navbar-start">
 
@@ -55,7 +71,14 @@ const Navbar = () => {
                                 <Link to='/'> <button className="btn btn-primary w-20" onClick={handleLogOut}>LogOut</button></Link>
 
                                 :
-                                <Link to='/login'> <button className="btn btn-primary w-20" >Login</button></Link>
+                                <>
+                                    <Link to='/login'> <button className="btn btn-primary w-20" >Login</button></Link>
+                                    <button className="btn btn-secondary ml-2   " onClick={handleSignInWithGoogle}>
+                                        <FaGoogle />
+                                        Sign in with google
+                                    </button>
+
+                                </>
 
                         }
 

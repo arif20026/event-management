@@ -3,6 +3,8 @@ import Footer from "../shared/Footer/Footer";
 import Navbar from "../shared/Navbar/Navbar";
 import Banner from "./Banner";
 import ServiceCard from "./ServiceCard";
+import Features from "./features";
+import CustomerReview from "./CustomerReview";
 // import ServiceDetails from "./ServiceDetails";
 
 const Home = () => {
@@ -11,28 +13,25 @@ const Home = () => {
     // console.log(services)
     
     return (
-        <div className="space-y-5 ">
+        <div className=" ">
 
             <Navbar></Navbar>
 
             <Banner></Banner>
 
-            <div className="">
+            <div className="my-10">
                 <h3 className="text-center text-4xl font-bold">Services</h3>
             </div>
 
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4 mb-10">
                 {
                     services.map( service => <ServiceCard key={service.id} services={service}></ServiceCard>)
                 }
             </div>
 
-            
-           
+           <Features></Features>
 
-
-
-
+           <CustomerReview></CustomerReview>
 
 
             <Footer></Footer>

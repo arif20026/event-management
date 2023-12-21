@@ -1,50 +1,50 @@
 [
-    {
-      "id": 1,
-      "name": "End-to-End Event Planning",
-      "image": "https://i.ibb.co/PxghtXv/shutterstock-425206855.jpg",
-      "price": "$2,500 - $5,000",
-      "description": "Comprehensive event planning services, covering concept development, logistics, scheduling, and coordination.",
-      "detail_description": "Our End-to-End Event Planning service ensures a seamless experience, from initial idea generation to flawless execution. We handle every aspect to make your event memorable and successful. This includes detailed concept development, precise logistical planning, scheduling coordination, and on-site execution with a focus on every detail. Let us take care of the complexities, so you can enjoy a stress-free event."
-    },
-    {
-      "id": 2,
-      "name": "Venue Selection and Management",
-      "image": "https://i.ibb.co/JKQYNQb/venue.jpg",
-      "price": "$1,000 - $3,000",
-      "description": "Assistance in selecting suitable venues, handling negotiations, bookings, and on-site management for educational and training events.",
-      "detail_description": "Our Venue Selection and Management service guarantees a perfect match between your event and the venue. We take care of negotiations, bookings, and on-site management for a stress-free experience. Our team conducts a thorough analysis of your event requirements, ensuring the chosen venue aligns with your vision. From negotiating contracts to overseeing logistics, we ensure every detail is managed professionally, allowing you to focus on the success of your event."
-    },
-    {
-      "id": 3,
-      "name": "Speaker and Presenter Coordination",
-      "image": "https://i.ibb.co/ZV8mwVG/image-asset.jpg",
-      "price": "$1,500 - $4,000",
-      "description": "Management of speaker and presenter recruitment and coordination, ensuring a diverse and knowledgeable lineup.",
-      "detail_description": "For Speaker and Presenter Coordination, we curate a diverse and knowledgeable lineup for your event. Our meticulous coordination ensures engaging and informative sessions. From identifying industry experts to managing their schedules, we take care of every aspect. We prioritize diversity and expertise, guaranteeing that your audience benefits from insightful and well-coordinated presentations."
-    },
-    {
-      "id": 4,
-      "name": "Promotional Campaigns",
-      "image": "https://i.ibb.co/zZPZyWz/download.jpg",
-      "price": "$800 - $2,500",
-      "description": "Development and execution of marketing and promotional campaigns to increase event visibility and attract participants.",
-      "detail_description": "Our Promotional Campaigns service is designed to boost your event's visibility and attract the right audience. We create and execute effective campaigns for maximum impact. Our team develops tailored marketing strategies, leveraging various channels to reach your target audience. From social media campaigns to email marketing, we ensure your event gains the attention it deserves, resulting in increased attendance and engagement."
-    },
-    {
-      "id": 5,
-      "name": "Registration and Ticketing Services",
-      "image": "https://i.ibb.co/4Nny7fF/download-1.jpg",
-      "price": "$500 - $1,500",
-      "description": "Offering online registration and ticketing solutions to streamline participant sign-up and manage attendance effectively.",
-      "detail_description": "Simplify participant sign-up and attendance management with our Registration and Ticketing Services. We offer user-friendly online solutions for a seamless experience. From creating customized registration forms to managing ticket sales and check-ins, our platform ensures a hassle-free process. Focus on delivering a great event while we take care of the technicalities of participant management."
-    },
-    {
-      "id": 6,
-      "name": "Post-Event Evaluation and Analysis",
-      "image": "https://i.ibb.co/0cShqYW/download-2.jpg",
-      "price": "$1,200 - $3,000",
-      "description": "Conducting post-event evaluations to gather feedback, analyze event success, and provide insights for future improvements.",
-      "detail_description": "Our Post-Event Evaluation and Analysis service helps you gather valuable feedback, analyze event success, and gain insights for continuous improvement in future events. We employ a comprehensive approach, collecting feedback from participants, sponsors, and stakeholders. Our detailed analysis covers event logistics, content delivery, and overall participant satisfaction, providing you with actionable insights for enhancing your future events."
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Workshops And Webinars",
+    "image": "https://i.ibb.co/jWJLdSk/images-q-tbn-ANd9-Gc-STF4pc-DBhz-Hnw-R0pq-LL-32-SMb-Hog-OSl-Sjpqg-usqp-CAU.jpg",
+    "price": 1499.99,
+    "description": "Enhance your skills with interactive workshops and webinars.",
+    "detail_description": "Immerse yourself in a world of continuous learning with our diverse range of events designed to empower professionals. Explore a multitude of engaging sessions led by industry experts, where you can delve into hands-on learning experiences, gain practical insights, and connect with a vibrant community of like-minded individuals. Stay at the forefront of your field by participating in our thoughtfully curated educational events that go beyond the ordinary, fostering a culture of collaboration, innovation, and personal growth."
+  },
+  {
+    "id": 2,
+    "name": "Career Fairs",
+    "image": "https://i.ibb.co/0spqtK1/download.png",
+    "price": 2500.00,
+    "description": "Discover exciting career opportunities at exclusive career fairs.",
+    "detail_description": "Embark on a transformative journey at our dynamic career fairs tailored for diverse industries. Engage with top recruiters, immerse yourself in discussions about the latest industry trends, and showcase your skills to potential employers. Elevate your career prospects with immersive and impactful experiences that extend beyond traditional job fairs. Our events provide a unique platform for networking, knowledge sharing, and unlocking new possibilities in your professional journey."
+  },
+  {
+    "id": 3,
+    "name": "Educational Conferences",
+    "image": "https://i.ibb.co/CPxtnhC/download-3.jpg",
+    "price": 1599.99,
+    "description": "Immerse in thought-provoking discussions at educational conferences.",
+    "detail_description": "Step into a world of intellectual exploration at our educational conferences, where thought leaders share profound insights and collectively shape the future of education. Immerse yourself in discussions about global educational landscapes, network with influencers, and contribute meaningfully to the ongoing dialogue that is reshaping the very foundations of learning. Join us on a journey of discovery and enlightenment, where your participation becomes a pivotal force in shaping the future of education worldwide."
+  },
+  {
+    "id": 4,
+    "name": "Training Programs",
+    "image": "https://i.ibb.co/7SLgVb3/images.jpg",
+    "price": 2999.99,
+    "description": "Embark on professional development with comprehensive training programs.",
+    "detail_description": "Embark on a transformative journey of professional growth with our hands-on training programs. Led by seasoned instructors, these programs offer a deep dive into critical skill areas, providing you with the tools and certifications needed to excel in your career. Invest in your future by acquiring valuable certifications and emerging ready to navigate the challenges of your industry. Our industry-aligned training initiatives ensure that you stand out in a competitive professional landscape."
+  },
+  {
+    "id": 5,
+    "name": "Hackathons",
+    "image": "https://i.ibb.co/9NNpdDR/download-4.jpg",
+    "price": 1500.00,
+    "description": "Ignite your creativity at high-energy hackathons.",
+    "detail_description": "Ignite your creativity and problem-solving skills at our high-energy hackathons. Join a community of innovators and immerse yourself in an environment where innovation knows no bounds. Collaborate with like-minded individuals, leverage cutting-edge technologies, and showcase your ability to tackle real-world challenges. Be part of a community that is driving positive change through technology and pushing the boundaries of what's possible in the world of innovation."
+  },
+  {
+    "id": 6,
+    "name": "Seminars",
+    "image": "https://i.ibb.co/CMNFxZW/images-1.jpg ",
+    "price": 1999.99,
+    "description": "Deepen your understanding of leadership and digital transformation at our seminar series.",
+    "detail_description": "Participate in our seminar series and gain invaluable insights into leadership principles, effective communication, and strategic decision-making. Engage with experienced speakers, network with professionals, and stay informed about the latest trends shaping leadership and digital transformation. Immerse yourself in a series of enriching sessions designed to empower you with the knowledge and skills needed to thrive in an ever-evolving professional landscape. Elevate your understanding and make informed decisions that lead to success in your leadership journey."
+  }
+]
