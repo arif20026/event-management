@@ -11,29 +11,46 @@ const ServiceDetails = () => {
 
     const [service, setService] = useState([])
 
-    useEffect(() => {
-        const ser = data?.find(item => item.id == id)
-        console.log(ser)
+    useEffect( () => {
+            const ser = data?.find(item => item.id == id)
+            console.log(ser)
 
-        setService(ser)
+            setService(ser)
 
-    }, [])
+
+        }
+
+    , [])
 
     return (
         <div>
 
             <Navbar></Navbar>
-            <div className="space-y-4 mx-40 my-4 flex flex-col justify-center">
 
-                <h3 className="text-center  text-4xl font-bold">{service.name}</h3>
-                 <h3 className="text-center  text-xl font-bold">Price : {service.price}</h3>
+           
 
-                <img src={service.image} className='w-50 h-60 mx-40 border border-red-300' alt="" />
+                    <div className="space-y-4 mx-40 my-4 flex flex-col justify-center">
 
 
 
-                <h1 className="mb-[300px]">{service.detail_description}</h1>
-            </div>
+
+                        <h3 className="text-center  text-4xl font-bold">{service.name}</h3>
+                        <h3 className="text-center  text-xl font-bold">Price : {service.price}</h3>
+
+                        <img src={service.image} className='w-50 h-60 mx-40 border border-red-300' alt="" />
+
+
+
+                        <h1 className="mb-[300px]">{service.detail_description}</h1>
+
+
+
+
+
+                    </div>
+
+          
+            
 
             <Footer></Footer>
 

@@ -1,10 +1,13 @@
-    import { useContext } from "react";
+    import { useContext, useState } from "react";
     import { Link } from "react-router-dom";
     import { AuthContext } from "../../Provider/AuthProvider";
 
     const Register = () => {
 
         const {createUser} =useContext(AuthContext)
+        const [registerError,setRegisterError] = useState('')
+        const [success,setSuccess] = useState(false)
+        
 
 
         const handleSubmit = e => {
@@ -16,14 +19,25 @@
             const photoURL =  form.get('photoURL')
             const email= form.get('email')
             const password =form.get('password')
-            console.log()
+
+            setRegisterError('')
+            setSuccess('')
+
+            if( !/^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])(.{6,})$/.test(password)){
+                setRegisterError('Password should be at least 6 characters and  contain a capital letter and a special character ! ')
+                return
+            }
+
+
 
             createUser(email,password,name,photoURL)
             .then (result => {
                 console.log(result.user)
+                setSuccess(true)
             })
             .catch(error => {
-                console.log(error   )
+                console.log(error)
+                setRegisterError(error.message)
             })
 
 
@@ -64,6 +78,13 @@
                                 <button className="btn btn-primary" >Register</button>
                             </div>
                             <p>Already have an account Please <Link to='/login' className="text-blue-700 font-bold">Login</Link></p>
+                            {
+                                registerError && <p className="text-red-500  font-bold text-3xl"> {registerError}</p>
+                            }
+
+                            {
+                                success && <p className="text-green-800 font-bold text-3xl">Congratulation! User Created</p>
+                            }
                         </form>
                     </div>
                 </div>

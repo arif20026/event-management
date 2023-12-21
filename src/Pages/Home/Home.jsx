@@ -28,11 +28,7 @@ const Home = () => {
             </div>
 
             
-            {/* <div className="hidden">
-                {
-                   services.map(service => <ServiceDetails key={service.id} services={service}></ServiceDetails> ) 
-                }
-            </div> */}
+           
 
 
 
