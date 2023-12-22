@@ -51,6 +51,22 @@ const Navbar= () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         {navLinks}
+                        {
+                    user ?
+
+                        <Link to='/'> <button className="btn btn-primary btn-sm  " onClick={handleLogOut}>LogOut</button></Link>
+
+                        :
+                        <>
+                            <Link to='/login'> <button className="btn btn-primary btn-sm " >Login</button></Link>
+                            <button className="btn    btn-secondary  btn-sm ml-2   " onClick={handleSignInWithGoogle}>
+                                <FaGoogle />
+                                Sign in with google
+                            </button>
+
+                        </>
+
+                }
                     </ul>
                 </div>
             </div>
@@ -69,12 +85,14 @@ const Navbar= () => {
                             <p>{user.displayName}</p>
                             <img src={user.photoURL} alt="" className="w-12 rounded-full mr-1" />
 
-                        </> : <img src={userDefaultPic} alt="" className="w-12 rounded-full" />
+                        </> : <img src={userDefaultPic} alt="" className="w-12 rounded-full mr-1" />
                     }
 
                 </div>
 
-                {
+              <div className="hidden lg:flex">
+
+              {
                     user ?
 
                         <Link to='/'> <button className="btn btn-primary w-20" onClick={handleLogOut}>LogOut</button></Link>
@@ -82,7 +100,7 @@ const Navbar= () => {
                         :
                         <>
                             <Link to='/login'> <button className="btn btn-primary w-20" >Login</button></Link>
-                            <button className="btn btn-secondary ml-2   " onClick={handleSignInWithGoogle}>
+                            <button className="btn    btn-secondary ml-2   " onClick={handleSignInWithGoogle}>
                                 <FaGoogle />
                                 Sign in with google
                             </button>
@@ -91,6 +109,7 @@ const Navbar= () => {
 
                 }
 
+              </div>
 
             </div>
         </div>
