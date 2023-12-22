@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>At first line variable is declared as greeting but in second and second line there is a typo , instead of 'greeting' 'greetign' is typed. As greetign is not defined consoling it will give reference error </i>
 
 </p>
 </details>
