@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: 4
 
-<i>for each method checks if the number is truthy or falsy . As O is falsy it will not increase the initial 0 value.rest 3 numbers will increase the count variable from 0 .Final output will be 4</i>
+<i>for each method checks if the number is truthy or falsy . As 0 is falsy it will not increase the initial 0 value.rest 3 numbers will increase the count variable from 0 .Final output will be 4</i>
 
 </p>
 </details>
