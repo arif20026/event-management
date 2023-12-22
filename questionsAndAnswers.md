@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: B
 
-<i>At first line variable is declared as greeting but in second and second line there is a typo , instead of 'greeting' 'greetign' is typed. As greetign is not defined consoling it will give reference error </i>
+<i>At first line variable is declared as greeting but in second and third line there is a typo , instead of 'greeting' 'greetign' is typed. As greetign is not defined consoling it will give reference error </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>a is number and b is string . summation of number and string will return string</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>value of favorite food property of info object  will change but food array will remain unchanged</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>As parameter is not given it will give undefined output</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 4
 
-<i>Write your explanation here</i>
+<i>for each method checks if the number is truthy or falsy . As O is falsy it will not increase the initial 0 value.rest 3 numbers will increase the count variable from 0 .Final output will be 4</i>
 
 </p>
 </details>

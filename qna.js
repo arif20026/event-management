@@ -1,3 +1,6 @@
-let greeting;
-greetign = {};
-console.log(greetign);
+const food = ["🍕", "🍫", "🥑", "🍔"];
+const info = { favoriteFood: food[0] };
+
+info.favoriteFood = "🍝";
+
+console.log(info);
