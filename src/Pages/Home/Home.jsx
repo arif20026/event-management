@@ -3,7 +3,7 @@ import Footer from "../shared/Footer/Footer";
 import Navbar from "../shared/Navbar/Navbar";
 import Banner from "./Banner";
 import ServiceCard from "./ServiceCard";
-import Features from "./features";
+import Features from "./Features";
 import CustomerReview from "./CustomerReview";
 // import ServiceDetails from "./ServiceDetails";
 

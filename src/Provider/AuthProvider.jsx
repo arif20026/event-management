@@ -6,6 +6,7 @@ import app from "../../src/firebase/firebase.config";
 export const AuthContext = createContext(null)
 const auth= getAuth(app)
 const AuthProvider = ({children}) => {
+
     const googleProvider =new GoogleAuthProvider()
     const [user,setUser]=useState(null)
     const [loading,setLoading] = useState(true)
@@ -14,7 +15,8 @@ const AuthProvider = ({children}) => {
         try {
           const result = await signInWithPopup(auth, googleProvider);
           setUser(result.user);
-        } catch (error) {
+        } 
+        catch (error) {
           console.error(error.message);
         }
       };
